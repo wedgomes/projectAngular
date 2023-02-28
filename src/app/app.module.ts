@@ -8,6 +8,12 @@ import { SegundoComponenteComponent } from './segundo-componente/segundo-compone
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { PipCustomizadoComponent } from './pip-customizado/pip-customizado.component';
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { FormsModule } from '@angular/forms';
+import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1.component';
+import { ExemploServicos2Component } from './exemplo-servicos2/exemplo-servicos2.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +22,17 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
     SegundoComponenteComponent,
     MultiplicaPorPipe,
     PipCustomizadoComponent,
-    RenderizandoListasComponent
+    RenderizandoListasComponent,
+    ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent,
+    ExemploServicos1Component,
+    ExemploServicos2Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
