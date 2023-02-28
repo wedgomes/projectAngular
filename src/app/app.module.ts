@@ -7,6 +7,7 @@ import { PrimeiroComponenteComponenet } from './primeiro-componente/primeiro-com
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { PipCustomizadoComponent } from './pip-customizado/pip-customizado.component';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PipCustomizadoComponent } from './pip-customizado/pip-customizado.compo
     PrimeiroComponenteComponenet,
     SegundoComponenteComponent,
     MultiplicaPorPipe,
-    PipCustomizadoComponent
+    PipCustomizadoComponent,
+    RenderizandoListasComponent
   ],
   imports: [
     BrowserModule,
